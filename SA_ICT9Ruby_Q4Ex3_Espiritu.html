@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Arithmetic Operators</title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alice&family=Chivo+Mono:ital,wght@1,100&family=Delicious+Handrawn&family=Gloock&family=IBM+Plex+Serif:ital,wght@1,200&family=Inconsolata&family=Indie+Flower&family=Martian+Mono:wght@300&family=Oswald&family=Playfair+Display:ital,wght@1,400;1,700&family=Roboto+Mono:ital@1&family=Shantell+Sans:wght@300&family=Unbounded:wght@300&family=Vidaloka&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<div class="container" style="font-size: 4rem;">
+<body style="font-family: Chivo Mono;" style="background-color: #490085" >
+	<center><h1 style="font-family:Chivo Mono; color: white;"><span style="background-color: #490085">JavaScript Arithmetic Operator</span></h1></center>
+	<center><p><mark>a= 22, b= 13;</mark></p></center>
+	<ol type="2.">
+
+    <li>a+b =<strong id="p1"></strong></li>
+	<li>a-b =<strong id="p2"></strong></li>
+	<li>a*b =<strong id="p3"></strong></li>
+	<li>a/b =<strong id="p4"></strong></li>
+	<li>a%b =<strong id="p5"></strong></li>
+
+	</ol>
+
+	<script type="text/javascript">
+		document.body.style.color ="White"
+
+		let a= 22, b=14;
+
+		let sum = a + b;
+		let diff = a - b;
+		let product = a * b;
+		let quotient = a / b;
+		let remainder = a % b;
+    alert("The sum of two numbers:" + sum + "\n" +
+			"The diffrence of two numbers:" + diff + "\n" +
+			"The product of two numbers:" + product + "\n" +
+			"The quotient of two numbers" + quotient + "\n" +
+			"The remainder of two numbers:" + remainder);
+
+		//variable declaration;assignment of values
+		document.getElementById('p1').innerHTML = a + b;
+		document.getElementById('p2').innerHTML = a - b;
+		document.getElementById('p3').innerHTML = a * b;
+		document.getElementById('p4').innerHTML = a / b;
+        document.getElementById('p5').innerHTML = a % 2;
+	</script>
+
+	<style>
+		body {
+			color: white;
+		}
+	</style>
+</body>
+</div>
+</html>
